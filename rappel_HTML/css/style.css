@@ -1,0 +1,196 @@
+/*
+Sandy brown
+#E98D41
+
+Khaki
+#EEC68C
+
+Dark Slate Gray
+#2B404C
+
+Dim Gray
+#6E6160
+
+Light Slate Gray
+#919EBD
+*/
+
+.main-theme
+{
+    background-color: #EEC68C;
+}
+
+.light-theme
+{
+    background-color:#919EBD;
+}
+
+.dark-theme, h1, h2, h3, h4
+{
+    background-color:#2B404C;
+    color:#E98D41;
+}
+
+.color-theme
+{
+    background-color: #E98D41;
+}
+h1, h2, h3, h4{
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 5%;
+    padding: 10px;
+}
+
+article 
+{
+    background-color:rgba(238, 198, 140, 0.75);
+    padding: 2%;
+}
+
+aside ul li
+{
+    list-style-type:square;
+}
+
+body
+{
+    /* Image avec parallax */
+    background-image: url("../images/paysage.jpg");
+    background-attachment:fixed ;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:auto;
+}
+
+aside
+{
+    float: left;
+    position: fixed;
+}
+
+section
+{
+    float: right;
+}
+
+footer
+{
+    clear: both;
+    text-align:center;
+    padding: 15px 0;
+}
+
+a
+{
+    color: #919EBD;
+}
+
+a:visited
+{
+    color:#2B404C;
+}
+
+.p1
+{
+    padding:1em;
+}
+
+.p2
+{
+    padding:2em;
+}
+
+.p3
+{
+    padding:3em;
+}
+
+.p4
+{
+    padding:4em;
+}
+
+/* Margin */
+.m2
+{
+    margin:10vh 10vw;
+}
+
+.m4
+{
+    margin: 20vh 20vw;
+}
+
+/* Margin top */
+
+.mt2{
+    margin-top: 10vh;
+}
+.mt4{
+    margin-top:20vh;
+}
+
+/* Margin bottom */
+
+.mb2{
+    margin-bottom: 10vh;
+}
+.mb4{
+    margin-bottom:20vh;
+}
+
+/* Margin right */
+
+.mr2{
+    margin-right: 10vw;
+}
+.mr4{
+    margin-right:20vw;
+}
+
+/*Margin verticale */
+.mv-auto{
+    margin: auto 0;
+}
+
+/*Margin horizontale */
+.mh-auto{
+    margin: 0 auto;
+}
+
+/* Largeur d'un élément */
+.w10{
+    width: 10%;
+    min-width:10%;
+}
+
+.w20{
+    width: 20%;
+    min-width:20%;
+}
+.w40{
+    width: 40%;
+    min-width:40%;
+}
+.w60{
+    width: 60%;
+    min-width:60%;
+}
+.w80{
+    width: 80%;
+    min-width:80%;
+}
+.w100{
+    width: 100%;
+    min-width:100%;
+}
+
+.flex {
+    display:flex;
+    flex-direction:column;
+    align-content: space-around;
+    align-self:center;
+    flex-basis: auto;
+}
