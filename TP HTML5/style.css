@@ -1,0 +1,72 @@
+/* COLORS
+
+Dark Khaki
+#88B951
+
+Tan
+#E3D3BC
+*/
+
+.color-theme
+{
+    background-color: #E3D3BC;
+}
+
+main
+{
+    width: 50vw;
+    margin-left:22vw;
+    padding-left:2%;
+    padding-right:2%;
+
+}
+
+h1
+{
+    text-align:center;
+}
+
+.avatar
+{
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:15vw;
+    margin-left:35%;
+}
+
+.champs
+{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-left:10vw;
+}
+
+input
+{
+    margin-bottom: 1%;
+    height: 20px;
+    box-shadow:0.5px 0.5px #C0C0C0 inset;
+}
+
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.button
+{
+    background-color:rgba(55, 163, 33, 0.993);
+	border-radius:10px;
+    border:1px solid #88B951;
+    margin-top: 1%;
+	color:#FBFBFB;
+    width: 6vw;
+    font-size: 18px;
+    margin-left:45%;
+    -webkit-box-shadow: 0px 8px rgb(160, 160, 160);
+    -moz-box-shadow: 0px 8px rgba(160, 160, 160);
+    box-shadow: 0px 8px rgba(160, 160, 160);
+}
