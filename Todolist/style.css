@@ -3,9 +3,9 @@
 header
 {
     color: #fff;
-    height: 30vh;
-    width:40vw;
-    margin-left:30%;
+    height: 35vh;
+    width:20vw;
+    margin-left:38%;
     text-align:left;
     background-image: url("./sky2.jpg");
     background-attachment:fixed ;
@@ -14,17 +14,19 @@ header
     background-size:cover;
 }
 #date{
-    padding-top: 25vh;
-    padding-left:2vw;
+    padding-top: 30vh;
+    padding-left:1vw;
 }
 #forms {
-    width: 40vw;
-    margin-left: 30%;
+    border: 1px solid black;
+    width: 20vw;
+    margin-left: 38%;
+    
 }
 .container {
     display: block;
-    position: relative;
-    padding-left: 35px;
+    position:relative;
+    padding-left: 40px;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 22px;
@@ -47,7 +49,8 @@ header
   .checkmark {
     position: absolute;
     top: 0;
-    left: 0;
+    left:0;
+    margin-left:10px;
     height: 25px;
     width: 25px;
     border-radius:15px;
@@ -89,3 +92,33 @@ header
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+  #form_add{
+    
+    display: flex;
+  }
+
+  #form_add, #form_check{
+      margin-top:40px;
+      margin-bottom:10px;
+  }
+
+  #form_add img{
+      width:25px;
+      height:25px;
+      margin-left:10px;
+      margin-right:10px;
+  }
+  #form_add input{
+      height:25px;
+      max-width:15vw;
+      font-size:22px;
+  }
+#delete{
+    height:25px;
+    width:25px;
+}
+p{
+    display: flex;
+    justify-content: space-between
+}

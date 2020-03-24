@@ -12,34 +12,47 @@
             <h2 id="date"></h2>
         </header>
         <section id="forms">
-            <form>      
-                <fieldset>
+            <form id="form_check"> 
+                <p>
                     <label class="container">Faire le template en HTML
-                        <input type="checkbox" name="action" value="HTML">
+                        <input type="checkbox" name="action">
                         <span class="checkmark"></span>
                     </label>
+                    <img id="delete" src="./delete.png" alt="">
+                </p>
+                <p>
                     <label class="container">Ajouter le CSS
-                        <input type="checkbox" name="action" value="CSS">
-                        <span class="checkmark"></span>
+                        <input type="checkbox" name="action">
+                        <span class="checkmark"></span> 
                     </label>
+                    <img id="delete" src="./delete.png" alt="">
+                </p>
+                <p>
                     <label class="container">Faire le JS
-                        <input type="checkbox" name="action" value="JS">
+                        <input type="checkbox" name="action">
                         <span class="checkmark"></span>
                     </label>
+                    <img id="delete" src="./delete.png" alt="">
+                </p>
+                <p>
                     <label class="container">Ajouter le stockage
-                        <input type="checkbox" name="action" value="stockage">
+                        <input type="checkbox" name="action">
                         <span class="checkmark"></span>
                     </label>
+                    <img id="delete" src="./delete.png" alt="">
+                </p>
+                <p>
                     <label class="container">Faire l'appel
-                        <input type="checkbox" name="action" value="appel">
+                        <input type="checkbox" name="action">
                         <span class="checkmark"></span>
-                    </label>
-                </fieldset>      
+                    </label> 
+                    <img id="delete" src="./delete.png" alt="">  
+                </p>  
             </form>
-            <!--<form class="add">
-                <img src="./plus.png" alt="">
-                <input type="text" placeholder="Add-to-do" name="add">
-            </form>-->
+            <form id="form_add">
+                <img id="plus" src="./plus.png" alt="">
+                <input type="text" id="add" placeholder="Add-to-do" name="add">
+            </form>
         </section>
     </main>
     <script type="text/javascript" src="moment.js"></script>
