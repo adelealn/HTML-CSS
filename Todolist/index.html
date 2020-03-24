@@ -7,25 +7,42 @@
 </head>
 <body>
     <main>
-        <section id="test"> 
-            <!--<img src="./refresh.png" alt="refresh">-->
-            <h2>Monday, Mar 23</h2>
+        <header> 
+            <!--<button id="refresh"><img src="./refresh2.svg" alt=""></button>-->
+            <h2 id="date"></h2>
+        </header>
+        <section id="forms">
+            <form>      
+                <fieldset>
+                    <label class="container">Faire le template en HTML
+                        <input type="checkbox" name="action" value="HTML">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Ajouter le CSS
+                        <input type="checkbox" name="action" value="CSS">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Faire le JS
+                        <input type="checkbox" name="action" value="JS">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Ajouter le stockage
+                        <input type="checkbox" name="action" value="stockage">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Faire l'appel
+                        <input type="checkbox" name="action" value="appel">
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>      
+            </form>
+            <!--<form class="add">
+                <img src="./plus.png" alt="">
+                <input type="text" placeholder="Add-to-do" name="add">
+            </form>-->
         </section>
-        
-        <form>      
-            <fieldset>        
-                <input type="checkbox" name="action" value="HTML">Faire le template en HTML  
-                <input type="checkbox" name="action" value="CSS">Ajouter le CSS   
-                <input type="checkbox" name="action" value="JS">Faire le JS
-                <input type="checkbox" name="action" value="stockage">Ajouter le stockage   
-                <input type="checkbox" name="action" value="appel">Faire l'appel
-
-            </fieldset>      
-        </form>
-        <form class="add">
-            <img src="./plus.png" alt="">
-            <input type="text" placeholder="Add-to-do" name="add">
-        </form>
     </main>
+    <script type="text/javascript" src="moment.js"></script>
+    <script type="text/javascript" src="code.js"></script>
 </body>
 </html>
